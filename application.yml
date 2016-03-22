@@ -22,7 +22,8 @@ eureka:
 
 eventBus:
   broker: redis
-  redisHost: 192.168.99.100
+ # redisHost: 192.168.99.100
+ redisHost: localhost
   redisPort: 6379
   redisTopic: csrt-event-bus
 
