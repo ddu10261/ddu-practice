@@ -51,7 +51,7 @@ serviceManager:
     #   - "yellow2"
        ## - "timothys-iMac.local"
     self-test:
-      sslEnabled: false
+     # sslEnabled: false
       discoveryClient: true
       version: "0.4.5-SNAPSHOT"
       autoScale: 
@@ -60,7 +60,7 @@ serviceManager:
         lowResponseTimeThresholdMillis: 5
         highMemoryThresholdPercentage: 75
         highCpuLoadThresholdPercentage: 60
-       lowCpuThresholdPercentage: 5
+       #lowCpuThresholdPercentage: 5
         maxInstances: 3
         minInstances: 1
         stableMaxIterations: 12
