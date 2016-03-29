@@ -40,54 +40,57 @@ serviceManager:
    #   - "localhost"
        ##- "yellow2"
        ## - "timothys-iMac.local"
-    #query-service: 
-   #   sslEnabled: false
-    #  discovery-client: true 
-    #  version: "0.4.5-SNAPSHOT" 
-    #  ports: 
-   #     - "8762" 
-   #   bootstrapHosts: 
+    query-service: 
+      sslEnabled: false
+      discovery-client: true 
+      version: "0.4.5-SNAPSHOT" 
+      ports: 
+        - "8762" 
+      bootstrapHosts: 
+        - "dandan-Satellite-P55-A"
     #   - "yellow2"
        ## - "timothys-iMac.local"
-   # self-test:
-    #  sslEnabled: false
-    #  discoveryClient: true
-    #  version: "0.4.5-SNAPSHOT"
-   #   autoScale: 
-     #   enabled: true
-    #    highResponseTimeThresholdMillis: 200
-     #   lowResponseTimeThresholdMillis: 5
-     #   highMemoryThresholdPercentage: 75
-    #    highCpuLoadThresholdPercentage: 60
-    #    lowCpuThresholdPercentage: 5
-    #    maxInstances: 3
-     #   minInstances: 1
-     #   stableMaxIterations: 12
-     #   unstableMaxIterations: 12
-    #  ports:
-    #    - "9090-9095"
-    #  bootstrapHosts:
+    self-test:
+      sslEnabled: false
+      discoveryClient: true
+      version: "0.4.5-SNAPSHOT"
+      autoScale: 
+        enabled: true
+        highResponseTimeThresholdMillis: 200
+        lowResponseTimeThresholdMillis: 5
+        highMemoryThresholdPercentage: 75
+        highCpuLoadThresholdPercentage: 60
+       lowCpuThresholdPercentage: 5
+        maxInstances: 3
+        minInstances: 1
+        stableMaxIterations: 12
+        unstableMaxIterations: 12
+      ports:
+       - "9090-9095"
+     bootstrapHosts:
+       - "dandan-Satellite-P55-A"
     #   - "localhost"
       # - "yellow2"
        ## - "timothys-iMac.local"
-    #merchant-locator:
-     # sslEnabled: false
-     # discovery-client: true
-    #  auto-scale: 
-      #  enabled: true
-     #   highResponseTimeThresholdMillis: 200
-      #  lowResponseTimeThresholdMillis: 5
-      #  highMemoryThresholdPercentage: 85
-      #  highCpuLoadThresholdPercentage: 60
-       # lowCpuThresholdPercentage: 5
-      #  maxInstances: 3
-      #  minInstances: 1
-      #  stableMaxIterations: 12
-      #  unstableMaxIterations: 12
-      #version: "0.4.5-SNAPSHOT" 
-     # ports: 
-   #     - "9000-9003"
-   #   bootstrapHosts:
+    merchant-locator:
+      sslEnabled: false
+      discovery-client: true
+      auto-scale: 
+        enabled: true
+        highResponseTimeThresholdMillis: 200
+        lowResponseTimeThresholdMillis: 5
+        highMemoryThresholdPercentage: 85
+        highCpuLoadThresholdPercentage: 60
+        lowCpuThresholdPercentage: 5
+        maxInstances: 3
+        minInstances: 1
+        stableMaxIterations: 12
+        unstableMaxIterations: 12
+      version: "0.4.5-SNAPSHOT" 
+      ports: 
+        - "9000-9003"
+      bootstrapHosts:
+        - "dandan-Satellite-P55-A"
     #   - "yellow2"
        ## - "timothys-iMac.local"
 
