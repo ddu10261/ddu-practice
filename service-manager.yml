@@ -67,8 +67,8 @@ serviceManager:
         unstableMaxIterations: 12
       ports:
        - "9090-9095"
-     bootstrapHosts:
-       - "dandan-Satellite-P55-A"
+      bootstrapHosts: 
+        - "dandan-Satellite-P55-A"
     #   - "localhost"
       # - "yellow2"
        ## - "timothys-iMac.local"
