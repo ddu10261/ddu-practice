@@ -28,14 +28,14 @@ serviceManager:
       bootstrapHosts: 
        - "localhost"
       #  - "yellow2"
-    router: 
-      sslEnabled: false
-      discovery-client: true 
-      version: "0.4.5-SNAPSHOT" 
-      ports: 
-        - "8765" 
-      bootstrapHosts:
-      - "localhost"
+   # router: 
+     # sslEnabled: false
+   #   discovery-client: true 
+    #  version: "0.4.5-SNAPSHOT" 
+   #   ports: 
+   #     - "8765" 
+   #   bootstrapHosts:
+   #   - "localhost"
        ##- "yellow2"
        ## - "timothys-iMac.local"
     #query-service: 
@@ -47,25 +47,25 @@ serviceManager:
    #   bootstrapHosts: 
     #   - "yellow2"
        ## - "timothys-iMac.local"
-    self-test:
-      sslEnabled: false
-      discoveryClient: true
-      version: "0.4.5-SNAPSHOT"
-      autoScale: 
-        enabled: true
-        highResponseTimeThresholdMillis: 200
-        lowResponseTimeThresholdMillis: 5
-        highMemoryThresholdPercentage: 75
-        highCpuLoadThresholdPercentage: 60
-        lowCpuThresholdPercentage: 5
-        maxInstances: 3
-        minInstances: 1
-        stableMaxIterations: 12
-        unstableMaxIterations: 12
-      ports:
-        - "9090-9095"
-      bootstrapHosts:
-       - "localhost"
+   # self-test:
+    #  sslEnabled: false
+    #  discoveryClient: true
+    #  version: "0.4.5-SNAPSHOT"
+   #   autoScale: 
+     #   enabled: true
+    #    highResponseTimeThresholdMillis: 200
+     #   lowResponseTimeThresholdMillis: 5
+     #   highMemoryThresholdPercentage: 75
+    #    highCpuLoadThresholdPercentage: 60
+    #    lowCpuThresholdPercentage: 5
+    #    maxInstances: 3
+     #   minInstances: 1
+     #   stableMaxIterations: 12
+     #   unstableMaxIterations: 12
+    #  ports:
+    #    - "9090-9095"
+    #  bootstrapHosts:
+    #   - "localhost"
       # - "yellow2"
        ## - "timothys-iMac.local"
     #merchant-locator:
