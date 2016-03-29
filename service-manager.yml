@@ -26,15 +26,17 @@ serviceManager:
       ports: 
         - "8761" 
       bootstrapHosts: 
-        - "yellow2"
+       - "localhost"
+      #  - "yellow2"
     router: 
       sslEnabled: false
       discovery-client: true 
       version: "0.4.5-SNAPSHOT" 
       ports: 
         - "8765" 
-      bootstrapHosts: 
-       - "yellow2"
+      bootstrapHosts:
+      - "localhost"
+       ##- "yellow2"
        ## - "timothys-iMac.local"
     #query-service: 
    #   sslEnabled: false
@@ -63,7 +65,8 @@ serviceManager:
       ports:
         - "9090-9095"
       bootstrapHosts:
-       - "yellow2"
+       - "localhost"
+      # - "yellow2"
        ## - "timothys-iMac.local"
     #merchant-locator:
      # sslEnabled: false
