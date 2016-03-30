@@ -24,7 +24,7 @@ eventBus:
   broker: redis
   #redisHost: 10.1.1.90
   #redisHost: localhost
- redisHost: dandan-Satellite-P55-A
+  redisHost: dandan-Satellite-P55-A
   redisPort: 6379
   redisTopic: csrt-event-bus
 
