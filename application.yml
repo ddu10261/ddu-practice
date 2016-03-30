@@ -22,8 +22,8 @@ eureka:
 
 eventBus:
   broker: redis
-  #redisHost: localhost
-  redisHost: dandan-Satellite-P55-A
+  redisHost: localhost
+ # redisHost: dandan-Satellite-P55-A
   redisPort: 6379
   redisTopic: csrt-event-bus
 
