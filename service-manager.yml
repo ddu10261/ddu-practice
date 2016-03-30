@@ -26,8 +26,8 @@ serviceManager:
       ports: 
         - "8761" 
       bootstrapHosts:
-      - "dandan-Satellite-P55-A"
-     #  - "localhost"
+     # - "dandan-Satellite-P55-A"
+       - "localhost"
       #  - "yellow2"
     router: 
       sslEnabled: false
@@ -36,8 +36,8 @@ serviceManager:
       ports: 
        - "8765" 
       bootstrapHosts:
-      - "dandan-Satellite-P55-A"
-   #   - "localhost"
+     # - "dandan-Satellite-P55-A"
+      - "localhost"
        ##- "yellow2"
        ## - "timothys-iMac.local"
     query-service: 
@@ -47,7 +47,8 @@ serviceManager:
       ports: 
         - "8762" 
       bootstrapHosts: 
-        - "dandan-Satellite-P55-A"
+        - "localhost"
+     #   - "dandan-Satellite-P55-A"
     #   - "yellow2"
        ## - "timothys-iMac.local"
     self-test:
@@ -68,8 +69,8 @@ serviceManager:
       ports:
        - "9090-9095"
       bootstrapHosts: 
-        - "dandan-Satellite-P55-A"
-    #   - "localhost"
+     #   - "dandan-Satellite-P55-A"
+       - "localhost"
       # - "yellow2"
        ## - "timothys-iMac.local"
     merchant-locator:
@@ -90,7 +91,8 @@ serviceManager:
       ports: 
         - "9000-9003"
       bootstrapHosts:
-        - "dandan-Satellite-P55-A"
+       - "localhost"
+    #    - "dandan-Satellite-P55-A"
     #   - "yellow2"
        ## - "timothys-iMac.local"
 
