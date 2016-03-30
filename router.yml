@@ -1,10 +1,10 @@
 info:
   component: Zuul Server
 webApp:
-# discoveryUrl: "http://yellow2:8761"
-# turbineUrl: "http://yellow2:8765/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8765%2Fhystrix.stream"
- discoveryUrl: "http://dandan-Satellite-P55-A:8761"
- turbineUrl: "http://dandan-Satellite-P55-A:8765/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8765%2Fhystrix.stream"
+ discoveryUrl: "http://yellow2:8761"
+ turbineUrl: "http://yellow2:8765/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8765%2Fhystrix.stream"
+# discoveryUrl: "http://dandan-Satellite-P55-A:8761"
+# turbineUrl: "http://dandan-Satellite-P55-A:8765/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8765%2Fhystrix.stream"
 eureka:
   instance:
     prefer-ip-address: true
@@ -21,9 +21,9 @@ logging:
     org.springframework.web: DEBUG
      
 router:
-redisHost: dandan-Satellite-P55-A
+#redisHost: dandan-Satellite-P55-A
   #redisHost: 192.168.99.100
- # redisHost: 10.1.1.90
+  redisHost: 10.1.1.90
   redisPort: 6379
   services:
     merchant-locator:
