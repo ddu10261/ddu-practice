@@ -23,7 +23,7 @@ logging:
 router:
 #redisHost: dandan-Satellite-P55-A
   #redisHost: 192.168.99.100
-  redisHost: yellow2
+  redisHost: 10.1.1.90
   redisPort: 6379
   services:
     merchant-locator:
