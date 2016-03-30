@@ -26,9 +26,9 @@ serviceManager:
       ports: 
         - "8761" 
       bootstrapHosts:
-     # - "dandan-Satellite-P55-A"
+      - "dandan-Satellite-P55-A"
       # - "localhost"
-        - "yellow2"
+       # - "yellow2"
   #  router: 
    #   sslEnabled: false
     #  discovery-client: true 
