@@ -22,7 +22,7 @@ eureka:
 
 eventBus:
   broker: redis
-  redisHost: yellow2
+  redisHost: 10.1.1.90
   #redisHost: localhost
  # redisHost: dandan-Satellite-P55-A
   redisPort: 6379
