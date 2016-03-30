@@ -19,9 +19,9 @@ logging:
     org.springframework.web: DEBUG
      
 router:
-redisHost: dandan-Satellite-P55-A
+#redisHost: dandan-Satellite-P55-A
   #redisHost: 192.168.99.100
-  #redisHost: localhost
+  redisHost: localhost
   redisPort: 6379
   services:
     merchant-locator:
