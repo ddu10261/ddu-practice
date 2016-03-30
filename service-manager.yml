@@ -14,7 +14,8 @@ serviceManager:
   enable-docker: false
   enable-auto-bootstrap: true
   newServiceRegistrationTimeout: 300000
-  redisHost: 10.1.1.90
+  #redisHost: 10.1.1.90
+  redisHost: localhost
   redisPort: 6379
   tempJarDirectory: "/tmp/jars"
   serviceConfig:
