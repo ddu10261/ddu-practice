@@ -1,4 +1,0 @@
-redisQueryService:
-  redis:
-    host: csrt-util-1
-    port: 8769
