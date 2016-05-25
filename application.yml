@@ -1,3 +1,4 @@
+#test
 endpoints:
   restart:
     enabled: true
