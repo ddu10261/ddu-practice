@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.StepDefinitions.RunCukeTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 1.069 sec <<< FAILURE!
+Given user is on github homepage(Scenario: login without username and password)  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Dan-PC', ip: '169.254.136.235', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.cucumber.Selenium.SeleniumFunctions.createDriver(SeleniumFunctions.java:21)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_on_github_homepage(GithubLoginSD.java:16)
+	at ?.Given user is on github homepage(com/cucumber/StepDefinitions/github_login.feature:4)
+
+Scenario: login without username and password  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'Dan-PC', ip: '169.254.136.235', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:72)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:59)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:55)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.cucumber.Selenium.SeleniumFunctions.createDriver(SeleniumFunctions.java:21)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_on_github_homepage(GithubLoginSD.java:16)
+	at ?.Given user is on github homepage(com/cucumber/StepDefinitions/github_login.feature:4)
+
